@@ -8,6 +8,7 @@
 /* Generic */
 
 
+
 /* Utilities */
 .container {
     max-width: 1300px;
@@ -18,11 +19,15 @@
     border: 2px dashed black;
 }
 
-.flex {
+.top {
+    min-height: 70px;
+}
+
+.multi {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 .bar {
@@ -34,11 +39,53 @@
     width: 20%;
 }
 
-.link {
+.prime {
     width: 60%;
 }
 
-#nav {
+.device {
+    min-height: 400px;
+    width: 900px;
+    background-color: palevioletred;
+}
+
+.image {
+    min-height: 500px;
+    background-color: aqua;
+}
+
+.description-image {
+    min-height: 500px;
+    background-color: pink;
+    flex-grow: 1;
+}
+
+.grey {
+    background-color: lightslategray;
+}
+
+.function {
+    min-height: 600px;
+}
+
+.down {
+    min-height: 700px;
+}
+
+.green {
+    background-color: green;
+}
+
+.pad {
+    padding-top: 50px;
+}
+
+#navbar {
     min-height: 70px;
     background-color: lightblue;
+}
+
+#download {
+    min-height: 500px;
+    background-color: blue;
 }
