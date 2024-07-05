@@ -6,8 +6,9 @@
 }
 
 /* Generic */
-
-
+footer {
+    background-color: rgb(43, 43, 44);
+}
 
 /* Utilities */
 .container {
@@ -30,6 +31,14 @@
     align-items: center;
 }
 
+.exit {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
 .bar {
     min-height: 40px;
     background-color: goldenrod;
@@ -41,6 +50,16 @@
 
 .prime {
     width: 60%;
+}
+
+.social {
+    width: 30%;
+    background-color: blueviolet;
+}
+
+.internal {
+    width: calc(70%/4);
+    background-color: aquamarine;
 }
 
 .device {
@@ -80,8 +99,17 @@
     padding-top: 50px;
 }
 
+.connections {
+    min-height: 500px;
+}
+
+.little {
+    min-height: 20px;
+    width: 40px;
+    background-color: lightcoral;
+}
+
 #navbar {
-    min-height: 70px;
     background-color: lightblue;
 }
 
